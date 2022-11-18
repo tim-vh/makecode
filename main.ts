@@ -1,4 +1,4 @@
-basic.forever(function () {
+input.onButtonPressed(Button.A, function () {
     music.setTempo(60)
     for (let index = 0; index < 2; index++) {
         music.playTone(330, music.beat(BeatFraction.Quarter))
